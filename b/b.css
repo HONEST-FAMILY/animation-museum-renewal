@@ -56,12 +56,12 @@ ul, ol { list-style: none; }
   position: absolute; left: 0; right: 0; top: 0;
   font-size: var(--tfs); line-height: .8; font-weight: 900; letter-spacing: -0.05em;
   text-align: center; white-space: nowrap;
-  transform: translateY(-12%);
+  transform: translateY(-4%);
   pointer-events: none;
 }
 .hero-title span { display: inline-block; }
 .hero-aside {
-  position: absolute; right: var(--side); top: calc(var(--tfs) * .74 + 8px);
+  position: absolute; right: var(--side); top: calc(var(--tfs) * .8 + 8px);
   font-size: clamp(15px, 1.39vw, 20px); font-weight: 500; letter-spacing: -0.02em; color: var(--ink-2);
 }
 .hero-frame i { position: absolute; background: var(--line-2); }
