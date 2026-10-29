@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>애니메이션박물관 — 연필 끝에서</title>
+<meta name="description" content="우리나라에 하나뿐인 애니메이션박물관. 춘천 서면 박사로 854, 10:00–18:00, 매주 월요일 휴관.">
+<meta name="theme-color" content="#f7f5f0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f7f5f0'/%3E%3Cpath d='M9 24 L21 6 L24 8 L12 26 Z' fill='%231d1d1f'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="b.css">
+<link rel="preload" as="image" href="img/f01.webp">
+</head>
+<body>
+<div class="progress" aria-hidden="true"><i></i></div>
+
+<header class="nav">
+  <a class="nav-home" href="#top" aria-label="맨 위로">애니메이션박물관</a>
+  <nav class="nav-links" aria-label="주요 메뉴">
+    <a href="#visit">관람 안내</a>
+    <a href="#floors">전시</a>
+    <a href="#now">지금</a>
+    <a href="#way">오시는 길</a>
+  </nav>
+  <a class="nav-book" href="https://www.gica.or.kr/Ani/M50000/M50100/html" target="_blank" rel="noopener">예약</a>
+</header>
+
+<main>
+<section class="hero" id="top">
+  <h1 class="hero-title" aria-label="애니메이션박물관"><span class="t1">애니메이션</span><span class="t2">박물관</span></h1>
+  <p class="hero-aside">…2003년부터, 우리나라에 하나뿐인</p>
+  <div class="hero-frame" aria-hidden="true"><i class="fl"></i><i class="fr"></i><i class="fb"></i></div>
+
+  <div class="hero-body">
+    <div class="hero-left">
+      <p class="hero-q">애니메이션은<br>무슨 뜻일까요?</p>
+      <p class="hero-a">멈춘 그림에 숨을 불어넣는 일.<br>라틴어 아니마(anima), 숨.</p>
+      <div class="today" data-today>
+        <p class="today-date" data-today-date>오늘</p>
+        <p class="today-state" data-today-state>10:00 — 18:00</p>
+        <a class="btn-book" href="https://www.gica.or.kr/Ani/M50000/M50100/html" target="_blank" rel="noopener"><span>관람 예약</span><b aria-hidden="true">→</b></a>
+      </div>
+    </div>
+
+    <div class="book-wrap">
+      <div class="book" data-book>
+        <canvas class="book-canvas" aria-label="연필 그림 플립북 — 가로로 끌거나 눌러서 넘겨 보세요" role="img"></canvas>
+        <span class="book-no" data-book-no aria-hidden="true">01</span>
+        <span class="book-hint" aria-hidden="true"><span class="only-touch">엄지로 튕기기</span><span class="only-mouse">끌어서 넘기기</span></span>
+      </div>
+    </div>
+
+    <div class="hero-right" aria-live="off">
+      <i class="lead" aria-hidden="true"></i>
+      <p class="speed-k">지금</p>
+      <p class="speed"><b data-speed>0</b><span>장/초</span></p>
+      <p class="speed-say" data-speed-say>한 장씩 — 그림</p>
+      <ul class="speed-scale" aria-hidden="true">
+        <li><b>1–5</b> 그림</li>
+        <li><b>6–11</b> 이어지기 시작</li>
+        <li><b>12+</b> 움직임</li>
+      </ul>
+    </div>
+
+    <div class="hero-years" aria-hidden="true">
+      <span class="yr yr-a">2003</span>
+      <span class="yr yr-b" data-roll-year>2003</span>
+    </div>
+    <p class="hero-cta"><span class="only-touch">엄지로 튕겨 넘겨 보세요</span><span class="only-mouse">끌거나 눌러서 넘겨 보세요</span> — 그림이 깨어납니다</p>
+  </div>
+  <p class="hero-foot" aria-hidden="true">애니메이션은 무슨 뜻일까요? 아니마(anima), 숨.</p>
+  <a class="btn-book btn-book-m" href="https://www.gica.or.kr/Ani/M50000/M50100/html" target="_blank" rel="noopener"><span>관람 예약</span><b aria-hidden="true">→</b></a>
+</section>
+
+<section class="sec visit" id="visit">
+  <header class="sec-head">
+    <span class="sec-no">01</span>
+    <h2 class="reveal">관람 안내</h2>
+    <p class="sec-sub" data-today-line>화요일부터 일요일까지 문을 엽니다.</p>
+  </header>
+  <div class="visit-grid">
+    <div class="hours">
+      <p class="big-time"><span>10:00</span><i></i><span>18:00</span></p>
+      <dl class="rows">
+        <div><dt>입장 마감</dt><dd>17:00 · 박물관·토이로봇관 통합 관람도 17:00</dd></div>
+        <div><dt>정기휴관</dt><dd>매주 월요일 · 1월 1일 · 설·추석 당일<br><small>월요일이 공휴일이면 다음날 쉽니다</small></dd></div>
+        <div><dt>관람 시간</dt><dd>약 1시간 30분 – 2시간 · 오후 4시 전에 들어오시면 여유롭습니다</dd></div>
+        <div><dt>온라인 예매</dt><dd>당일 오후 3시까지 · 예매 1시간 뒤부터 입장</dd></div>
+      </dl>
+    </div>
+    <div class="fees">
+      <p class="fees-k">관람권 — 애니메이션박물관 + 토이로봇관, 전 연령 같은 요금</p>
+      <ul class="fee-list">
+        <li><b data-count="7000">7,000</b><span>원</span><em>개인 · 사전예약</em></li>
+        <li><b data-count="5600">5,600</b><span>원</span><em>단체 20인 이상</em></li>
+        <li><b data-count="5000">5,000</b><span>원</span><em>춘천시민</em></li>
+      </ul>
+      <p class="fee-note">단체와 춘천시민은 현장발권만 됩니다.</p>
+      <div class="fee-more">
+        <p><b>무료</b> 24개월 미만 · 1~3등급 중증장애인(동반 1인) · 국가유공자(동반 배우자) · 자료 기증자(가족 포함) · 병역명문가(본인)</p>
+        <p><b>20% 할인</b> 매월 마지막 주 수요일 '문화가 있는 날'(공휴일·7월 제외) · 만 18세 미만 자녀 2명 이상과 함께 오는 다자녀 가정</p>
+      </div>
+      <a class="btn-line" href="https://www.gica.or.kr/Ani/M50000/M50100/html" target="_blank" rel="noopener">온라인 예약처 — 네이버 · 인터파크 <b aria-hidden="true">→</b></a>
+    </div>
+  </div>
+</section>
+
+<section class="sec floors" id="floors">
+  <header class="sec-head">
+    <span class="sec-no">02</span>
+    <h2 class="reveal">두 층, 한 바퀴</h2>
+    <p class="sec-sub">1층에서 애니메이션이 태어나고, 2층에서 직접 만들어 봅니다.</p>
+  </header>
+
+  <div class="floor">
+    <p class="floor-k"><b>1F</b> 애니메이션의 탄생과 발전</p>
+    <ol class="items">
+      <li class="item wide">
+        <figure><img src="img/p_projector.webp" alt="1층 영사기 전시 — 오래된 영사기와 광학 장난감" loading="lazy" width="1600" height="892"></figure>
+        <div class="cap"><span class="no">03</span><h3>영사기</h3><p>영사기는 어떻게 시작되었을까요? 환등기에서 시작된 영사기의 발달 과정과 1890년대에 쓰인 유리필름을 만납니다.</p></div>
+      </li>
+      <li class="item">
+        <figure><img src="img/p_cave.webp" alt="1층 동굴벽화 전시실" loading="lazy" width="600" height="324"></figure>
+        <div class="cap"><span class="no">01</span><h3>동굴벽화</h3><p>애니메이션은 무슨 뜻일까요? 기원전 1만 년경 알타미라 동굴에서 그 뜻과 원리를 알아봅니다.</p></div>
+      </li>
+      <li class="item">
+        <figure><img src="img/p_hall1.webp" alt="1층 전시관" loading="lazy" width="600" height="324"></figure>
+        <div class="cap"><span class="no">02</span><h3>1층 전시관</h3><p>애니메이션의 탄생과 발전, 애니메이션의 종류, 한국 애니메이션의 역사를 영상과 자료로 봅니다.</p></div>
+      </li>
+      <li class="item text">
+        <div class="cap"><span class="no">04</span><h3>상상의 계단</h3><p>여러 애니메이션 포스터가 걸린 계단을 따라 2층으로 올라갑니다.</p></div>
+      </li>
+    </ol>
+  </div>
+
+  <div class="floor">
+    <p class="floor-k"><b>2F</b> 몸으로 만나는 애니메이션</p>
+    <ol class="items four">
+      <li class="item">
+        <figure><img src="img/p_pinscreen.webp" alt="2층 애니메이션이랑 놀자 — 핀스크린 체험" loading="lazy" width="600" height="324"></figure>
+        <div class="cap"><span class="no">05</span><h3>애니메이션이랑 놀자</h3><p>몸으로 느끼는 핀스크린, 주인공 체험, 캐릭터 변검 체험.</p></div>
+      </li>
+      <li class="item">
+        <figure><img src="img/p_dubbing.webp" alt="2층 체험공간 — 더빙 스튜디오" loading="lazy" width="600" height="324"></figure>
+        <div class="cap"><span class="no">06</span><h3>체험공간</h3><p>소리를 만들어 내는 폴리아티스트 체험과 더빙 체험.</p></div>
+      </li>
+      <li class="item">
+        <figure><img src="img/p_memorial.webp" alt="2층 메모리얼 홀" loading="lazy" width="600" height="324"></figure>
+        <div class="cap"><span class="no">07</span><h3>메모리얼 홀</h3><p>한국 애니메이션의 산 역사, 故 신동헌 감독의 기념 공간.</p></div>
+      </li>
+      <li class="item">
+        <figure><img src="img/p_world.webp" alt="2층 세계관" loading="lazy" width="600" height="324"></figure>
+        <div class="cap"><span class="no">08</span><h3>세계관</h3><p>나라마다 다른 애니메이션의 흐름을 한자리에서.</p></div>
+      </li>
+    </ol>
+  </div>
+  <p class="floors-foot">1층 뮤지엄샵·구름빵 카페 10:00–18:00 · 야외 캐릭터공원 · 2층 기획전시실(연 2회 이상 기획전) · <a href="https://www.gica.or.kr/Ani/M30000/M30100/html" target="_blank" rel="noopener">집에서 미리 보는 버추얼 뮤지엄 →</a></p>
+</section>
+
+<section class="sec now" id="now">
+  <header class="sec-head">
+    <span class="sec-no">03</span>
+    <h2 class="reveal">연필 끝에서 살아나는 우리들의 얼굴</h2>
+    <p class="sec-sub">기획전 《아니마 ANIMA》 — 박물관에서 시작해 지금은 순회 중입니다.</p>
+  </header>
+  <div class="now-grid">
+    <figure class="poster"><img src="img/p_anima.webp" alt="기획전 아니마 ANIMA 포스터 — 연필 끝에서 살아나는 우리들의 얼굴" loading="lazy" width="800" height="980"></figure>
+    <div class="route">
+      <ol class="stops" data-route>
+        <li data-from="2026-08-11" data-to="2026-09-13"><span class="d">8.11 – 9.13</span><b>애니메이션박물관</b><em>춘천</em></li>
+        <li data-from="2026-09-19" data-to="2026-10-18"><span class="d">9.19 – 10.18</span><b>음악역1939</b><em>가평</em></li>
+        <li data-from="2026-10-27" data-to="2026-11-29"><span class="d">10.27 – 11.29</span><b>황순원문학촌</b><em>양평</em></li>
+      </ol>
+      <p class="route-note">2026년 K-뮤지엄 지역순회 전시 · 문화체육관광부·한국박물관협회 함께</p>
+      <div class="news">
+        <p class="news-k">박물관 갤러리 소식</p>
+        <ul>
+          <li><span>전시</span><b>42.195km, a Story on the Road 길 위의 이야기</b><em>최순연</em></li>
+          <li><span>전시</span><b>예술이야</b><em>하나린주간보호소</em></li>
+          <li><span>전시</span><b>A Hundred of whatnot — A collection of wearable designs</b><em>백은기</em></li>
+        </ul>
+        <a class="btn-line" href="https://www.gica.or.kr/Ani/M40000/M40100/boardList" target="_blank" rel="noopener">박물관 소식 전체 <b aria-hidden="true">→</b></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec way" id="way">
+  <header class="sec-head">
+    <span class="sec-no">04</span>
+    <h2 class="reveal">오시는 길</h2>
+    <p class="sec-sub">강원특별자치도 춘천시 서면 박사로 854</p>
+  </header>
+  <div class="way-grid">
+    <div class="line-map" aria-hidden="true">
+      <span class="lm lm-a">서울<small>용산·상봉·동서울</small></span><span class="lm lm-b">춘천역<small>시내버스 서면3·4·5·6</small></span><span class="lm lm-c">박물관<small>서면 박사로 854</small></span>
+    </div>
+    <ul class="ways">
+      <li><b>1:10</b><div><h3>ITX-청춘</h3><p>용산역 → 춘천역 · 1시간 간격</p></div></li>
+      <li><b>1:20</b><div><h3>경춘선 전철</h3><p>상봉역 → 춘천역 · 20분 간격</p></div></li>
+      <li><b>1:10</b><div><h3>시외버스</h3><p>동서울터미널·고속터미널 → 춘천 · 약 20분 간격</p></div></li>
+      <li><b>서면</b><div><h3>시내버스 서면3·4·5·6</h3><p>춘천역 쪽에서 타고 '애니메이션박물관 입구' 하차</p></div></li>
+    </ul>
+    <div class="call">
+      <p><span>애니메이션박물관</span><a href="tel:0332456470">033-245-6470</a></p>
+      <p><span>토이로봇관</span><a href="tel:0332456460">033-245-6460</a></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot-give">
+    <p class="foot-k">자료기증</p>
+    <p class="foot-big">애니메이션과 관련된 소중한 자료를 기증받습니다.</p>
+    <p>여러분의 참여가 백년 뒤의 문화를 만들어갑니다. 박물관경영팀 <a href="tel:0332456410">033-245-6410</a></p>
+  </div>
+  <div class="foot-base">
+    <p>강원정보문화산업진흥원 · 대표자 백창석 · 24461 강원특별자치도 춘천시 서면 박사로 854 · 033-245-6470</p>
+    <p>사업자등록번호 221-82-09598 · 통신판매업신고 제 2016-강원춘천-0093호</p>
+  </div>
+</footer>
+
+<script src="b.js"></script>
+</body>
+</html>
